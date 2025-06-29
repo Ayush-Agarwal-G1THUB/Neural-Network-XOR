@@ -3,6 +3,8 @@
 #include <vector>
 #include <random>
 
+using namespace std;
+
 struct point {
     int feature1;
     int feature2;
@@ -18,7 +20,6 @@ struct node {
     vector<double> w_gradients;
 };
 
-using namespace std;
 using layer = vector<node>;
 
 /**
